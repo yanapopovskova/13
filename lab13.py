@@ -29,7 +29,7 @@ median_age = (max_age + min_age) / 2
 for i in rows:
     if i[1] == "1" or i[1] == "0":
         if i[5] != "" and i[5] != " " and i[4] == "female":  # количество женщин
-            if abs(median_age - float(i[5])) <= 7:
+            if abs(median_age - float(i[5])) <= 5:
                 count_all += 1
 for i in rows:
     if i[1] == "1" or i[1] == "0":
