@@ -9,8 +9,6 @@ rows = list(csv.reader(file))
 # Переменные для подсчета
 count_survivor = 0
 count_all = 0
-sum = 0
-num = 0
 age_list = []  # список возрастов
 
 max_age = -1
